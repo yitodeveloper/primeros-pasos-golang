@@ -28,7 +28,7 @@ func print(text string) {
 	}
 }
 
-func main() {
+func mainCalculadora() {
 	print(welcomeSplash)
 
 	salir := true
