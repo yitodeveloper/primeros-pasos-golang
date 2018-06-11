@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func main8() {
 	x := 2
 	xstr := strconv.Itoa(x)
 
