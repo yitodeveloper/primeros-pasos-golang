@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	var j []int
@@ -28,4 +30,14 @@ func main() {
 	copy(x, frutas)
 	fmt.Println(frutas)
 	fmt.Println(x)
+
+	for _, v := range x {
+		fmt.Println("La fruta mas rica del mundo es " + v)
+	}
+
+	cadena := "Hola a todos me gusta programar"
+
+	for _, letra := range cadena {
+		fmt.Printf("La letra es la siguiente %q \n", letra)
+	}
 }
