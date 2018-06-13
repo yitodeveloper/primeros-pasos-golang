@@ -72,7 +72,7 @@ func checkError(err error) {
 		fmt.Println("Error: ", err)
 	}
 }
-func main() {
+func mainType() {
 	var a Articulo
 	a.Nombre = "Mouse Inalambrico"
 	a.Categoria.Nombre = "Computadores"
